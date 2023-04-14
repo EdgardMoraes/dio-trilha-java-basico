@@ -2,7 +2,7 @@ public class SmartTv {
     static boolean ligada = false;
     static int canal = 1;
     static int volume = 25;
-
+    static int maisVolume;
 
     public void ligar() {
         ligada = true;
